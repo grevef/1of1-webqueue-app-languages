@@ -184,7 +184,7 @@ const en = {
     approved: "Approved",
     rejected: "Rejected",
   },
-} as const;
+};
 
 export type TranslationKeys = typeof en;
 export default en;
